@@ -1,0 +1,53 @@
+array size can't be increased...
+linked list do not have size issue...
+random element can be acceesed in array but it can't be accessed in the linked list.
+we can move right to left or l to r in array but not in linked list.
+in array first we have to create space to insert element but in linked list we can directly insert 
+insert and delete is easy in array but it is tough in linked list..
+  
+
+stack :it is abstarct data type(insert delete in specific order but not in random order)..
+
+sed when we want diffrent data types in different portions
+template <typename t>
+classname<int> p1;
+clasname<int,double,...>object name;
+classname<classname<int,int>,int) objeect name;
+
+
+inbuilt stack:
+h. file does not include main
+#include<stack>
+stack<int >p1;
+return type of top is void.
+name : empty
+
+
+
+QUEUE:
+IT IS ALSO AN ABSTRACT DATA TYPE LIKE STACK.
+IT FOLlOWS FIFO SYSTEM.
+FOR INBUILT:
+#INCLUDE<QUEUE>
+queue.push
+size()
+void pop()
+bool empty();'
+
+
+TREES:
+ROOT
+CHILD
+A NODE WITH NO CHILD IS CALLED LEAF NODE.
+VECTOR IS A TEMPLATE 
+vector<int> v;
+//vector<int> *p=new vector<int>();
+v.push_back(10);
+v.size():	eturns the size of the vector
+v.at(4)=>v[4]
+v.pop_back():delete the last elemet
+
+class treenode
+{
+	int data;
+	vector<treenode*> children;
