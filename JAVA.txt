@@ -1,0 +1,160 @@
+JAVA PROGRAMMING LANGUAGE
+CHARACTERISTICS OF JAVA
+IT IS SIMPLE.
+IT IS OBJECT ORIENNTED.
+IT IS DISTRIBUTED.
+IT IS PORTABLE.
+IT IS ROBUST.
+IT IS PORTABLE.
+IT IS DYNAMIC .
+IT IS SECURE.
+
+JAVA ENVIRONMENT.
+JDK :JAVA DEVELOPMENT KIT.(CONSISTS JAVA COMPILER AND JAVA INTERPRETER).(DEVELOP AND RUN)
+JSL :JAVA STANDARD LIBRARY(CLASSES AND METHODS)
+APU :APPLICATION PROGRAMMING INTERFACE.
+USING JRE WE CAN;T DEVELOP ,WE CAN ONLY RUN THE PROGRAM.
+
+WHY JAVA USED COMPILER AND INTERPRETER?
+
+JAVA IS A PLATFORM INDEPENDENT LANGUAGE.
+PLATFORM INDEPENDENT:
+OBJECT ORIENTED PROGRAMMING FOCUSES ON HOW TO DO.
+OBJECT....
+CLASS....CLASS IS A BLUE PRINT OF OBJECT
+MEMORY IS REQUIRED BY OBJECT
+DATA ABSTRACTION :HIDE THE THINGS FROM THE USER.
+DATA ENCAPSULATION:PROPERTY AND FUNCTIONALITY IN A SINGLE UNIT.
+INHERITANCE:REUSABILITY:JAVA DOESN'T SI=UPPORT MULTIPLE INHERITANCE.
+POLYMORPHISM.
+MESSAGE PASSING
+
+WHERE TO USE CAPITAL AND WHERE TO SMALL?
+ALL PREDEFINED CLASSES FOLLOW CAMEL CASE.
+PREDIFEND METHODS ARE CAMEL CASE.
+SAVE THE FILE SAME AS CLASS NAME.
+public static void main(String[] args)
+{
+	int age=15;
+	System.out.println("hey i am rishabh");
+}
+variables of two types:
+primkitive 
+references
+we can separate bigger number by commas rather than comma.
+for large numbers , take long data type and put small l or capital L at the end.us-central1-a
+
+
+
+us-central1-a
+
+no of byte code files =no of classes in java program
+we can create multiple main methods in java
+as classesa are independent from each other
+main can be overloaded
+
+
+to use scanner class method in java , use import java.util.*;
+
+data types in java
+primitive data types: char bool int 
+non primitive data types: class interfaces arrays
+if we add two byte variables and we put it in byte ,then compile time error will come.
+java supports bool data type.
+
+
+for taking input in java:
+{
+	import java.util.*;
+	Scanner sr=Scanner(System.in);
+	string ch;
+	ch=sr.newline();//for taking string in space format;
+}
+wraper class is a class in java which provides the way to convert the primitive data types into onjects and onjects into primitive data types;
+int x=Integer.parseInt("1234");///converts integer string to integer
+
+
+
+INHERITANCE:
+SINGLE INHERITANCE OR MULTILEVEL INHERITANCE
+MULTIPLE INHERITANCE IS NOT SUPPORTED IN JAVA
+FINAL KEYWORD IN JAVA: WHEN WE MAKE CLASS FINAL WE CAN'T EXTEND THAT CLASS......JUST LIKE CONSTANT IN C++;
+
+programs: CLASS HONDA EXTENDS CLASS BIKE
+
+ABSTRACT METHOD:
+AN ABSTRACT METHOD IS METHOD OF SUPER CLASS WHICH BODY MUST BE OVERRIDED IN SUB CLASS.WHEN WE DEFINE AN ABSTRACT METHODIN SUPER CLASS ,WE CAN NOT WRITE IT'S BOD..Y,ONLY PROTOTYPE OF METHOD IS SPECIFIED.
+SO DECLARATION IS IN SUPERCLASS WHILE IT'S DEFINITION IS IN SUB CLASS......
+
+abstract void f1(); in base classs;
+definition in derived class:
+void f1()
+{
+	System.out.println("hey this is rishabh");
+}
+
+ABSTRACT CLASS:ANY CLASS HAVING ONE OR MORE ABSTRACT METHOD IS CALLED ABSTRACT CLASS.IN ABSTRACT CLASS , MUST EXPLICITLY SPECIFY AN ABSTRACT CLASS.....
+IF THE CLASS IS ABSTRACT ,THEN IT IS NOT NECESSARY ,THAT IT'S FUNCTION IS ALSO ABSTRACT .....
+AN ABSTRACT CLASS CAN'T BE INSTANTIATED  MEANS ME CAN'T CREATE IT'S OBJECT CAN'T BE CREATED....ONLY REFERENCE OF ABSTRACT CLASS CAN BE CREATED
+AN ABSTRACT IS USED FOR INHERITANCE....ANY CLASS EXTEND FROM ABSTRACT CLASS MUST OVERRIDE ALL ABSTRACT METHOD OF SUPER CLASS ELSE THAT CLASS PALSO BECOMES AN ABSTRACT CLASS AND REQUIRED TO BE SPECIFIED ABSTRACT EXPLICITLY.
+abstract class A
+{
+	abstract void f();
+}
+class B extends A
+{
+	void f1()
+	{
+	}
+}
+A a =new A(); compile time error
+1......IF ANY CLASS HAS ABSTRACT METHOD ,THEN IT SHOULD BE ABSTRACT CLASS BUT IN FINAL METHOD NOT SUCH TYPE COMPULSORY...
+2......A CLASS CAN'T BE ABSTRACT AND FINAL BOTH, SO ONE FINAL CLASS CAN'T CONTAIN ABSTRACT METHOD...
+3......SIMILIRAILY A METHOD CAN'T BE ABSTRACT AND FINAL BOTH.
+4.......AND ABSTRACT CLASS CAN CONTAIN ABSTRACT AND FINAL BOTH TYPE METHODS WHILE A FINAL CLASS CAN'T HAVE FINAL AND ABSTRACT METHODS BOTH....
+OBJECT OF ABSTRACT CLASS CAN'T BE CREATED
+
+str1.substring(0,5);
+str1.indexOf('a');
+
+DYNAMIC METHOD
+METHOD OVERIDING IS A ME 
+
+CLASS A
+{
+	VOID CALLOC()
+	{
+		SYSTEM
+	}
+
+
+
+PUBLIC STATIC VOID MAIN()
+{
+	A a=new A();
+	A ref;
+	ref=a;
+}
+
+polymosrphism can't be achieved using data members..
+
+
+STATIC VS DYNAMIC BINDING
+STATIC BINDING IS DONE USINg COMPILE TIME        WHILE DYNAMIC BINDING IS DONE USING RUN TIME.....
+PRIVATE FINAL AND STATIC METHOD AND VARIABLES USES STATIC BINDING AND BONDED BY THE COMPILER WHILE OVERRIDDEN METHODS ARE BONDED DURING RUN TIME BASED UPON TYPE OF RUN TIME OBJECT....
+
+string is a class in java
+java foloows camel caseall predefined classes satrt with a capital name;
+string.length:function in java to return the count of strings
+ENHANCED FOR LOOP:
+for(String s: args)
+{
+}
+since string is a class , so we can;t take into normal varibale....
+WRAPPER CLASS IN JAVA
+int a=Inetger.parseInt(agrs[0]);
+java p:show all methods of the class
+java.lang.int:
+
+
+
