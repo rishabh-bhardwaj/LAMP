@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            JAVASCRIPT
+        </title>
+        <style>
+            .para
+            {
+                font-size:10px;
+            }
+            .p1
+            {
+                color:red;
+            }
+            .p2
+            {
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="p1 "> initial</p>
+        <p class="p2"> final</p>
+        <button onclick="swap()">click the button to see the changes</button>
+    </body>
+    <script>
+        function swap()
+        {
+            p1=document.getElementsByClassName("p1");
+            // console.log(p1);
+            p2=document.getElementsByClassName("p2");
+            temp=p1[0].textContent;
+            p1[0].textContent=p2[0].textContent;
+            p2[0].textContent=temp;
+        }
+    </script>
+</html>
